@@ -37,6 +37,7 @@ final class Absent<T> extends Optional<T> {
   @Override
   public boolean isPresent() {
     return false;
+    // This is comment for changes
   }
 
   @Override
